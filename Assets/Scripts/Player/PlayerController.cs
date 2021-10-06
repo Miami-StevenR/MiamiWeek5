@@ -49,5 +49,9 @@ public class PlayerController : MonoBehaviour
         }
 
         //TODO change player two color
+        if (playerNumber == PlayerNumber.PlayerTwo)
+        {
+            meshRenderer.material.color = Color.cyan;
+        }
     }
 }

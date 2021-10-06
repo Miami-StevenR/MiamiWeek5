@@ -6,24 +6,24 @@ the single keyboard
 You must also implement the logic to remove a player using the same buttons used to add them.
 On top of using the button to add and remove it's text needs to be updated to reflect the action that will take place
 
-TODO Add custom Control Schema for player two
+//TODO Add custom Control Schema for player two
 
 Here are the following TODOs in the files:
 
 Assets/Scripts/Manager/InterfaceManager
-TODO: Add PlayerTwoButton reference
-TODO Listen for player two click event
-TODO flip text to say "Leave Player One"
-TODO on click after player has joined, remove player
-TODO Invoke JoinPlayer passing a playerIndex value and targeting a control scheme
-TODO flip text after player has joined to say "Leave Player Two"
-TODO on click after player has joined, remove player
+//TODO: Add PlayerTwoButton reference
+//TODO Listen for player two click event
+//TODO flip text to say "Leave Player One"
+//TODO on click after player has joined, remove player
+//TODO Invoke JoinPlayer passing a playerIndex value and targeting a control scheme
+//TODO flip text after player has joined to say "Leave Player Two"
+//TODO on click after player has joined, remove player
 
 Assets/Scripts/Manager/PlayerManager
 
 
 Assets/Scripts/Manager/SplitKeyboardPlayerInputManager
-TODO remove player from game and free up playerIndex in existingPlayerInputs
+//TODO remove player from game and free up playerIndex in existingPlayerInputs
 
 Assets/Scripts/Player/PlayerController
-TODO change player two color
+//TODO change player two color

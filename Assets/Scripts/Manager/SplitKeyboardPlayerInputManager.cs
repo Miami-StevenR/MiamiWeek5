@@ -35,5 +35,7 @@ public class SplitKeyboardPlayerInputManager : MonoBehaviour
     public void LeavePlayer(int playerIndex)
     {
         var playerInput = existingPlayerInputs[playerIndex];
+        Destroy(playerInput.gameObject);
+        existingPlayerInputs.Remove(playerIndex);
     }
 }
